@@ -16,7 +16,7 @@ public class LoginController implements Controller{
 			throws Exception {
 		System.out.println("LoginController pass");
 
-		
+		//
 				
 		request.getRequestDispatcher("loginform.jsp").forward(request, response);	
 	}
