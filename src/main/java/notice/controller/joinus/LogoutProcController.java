@@ -16,6 +16,7 @@ public class LogoutProcController implements Controller{
 			throws Exception {
 		System.out.println("LogoutProcController pass");
 
+//		세션삭제 go notice.do
 		request.getSession().invalidate();
 		response.sendRedirect("../customer/notice.do");
 	}
